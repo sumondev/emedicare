@@ -1,0 +1,43 @@
+RewriteEngine on
+
+RewriteRule ^emedicare 							index.php 						[L,QSA]
+
+RewriteRule ^citizen/login 						citizen/clogin.php 				[L,QSA]
+RewriteRule ^citizen/lprocess 					library/clogin.lib.php  		[L,QSA]
+RewriteRule ^citizen/signup 					citizen/csignup.php				[L,QSA]
+RewriteRule ^citizen/sprocess 					library/csignup.lib.php 		[L,QSA]
+RewriteRule ^citizen/home 						citizen/citizen.php				[L,QSA]
+RewriteRule ^citizen/doctors 					citizen/shows_doctors.php		[L,QSA]
+RewriteRule ^citizen/([0-9]+) 					citizen/cappointment.php?id=$1	[L,QSA]
+RewriteRule ^citizen/confirm/([0-9]+)			citizen/confirm.php?time=$1		[L,QSA]
+RewriteRule ^citizen/prescription 				citizen/mypres.php 				[L,QSA]
+RewriteRule ^citizen/appointment 				citizen/myappointment.php 		[L,QSA]
+RewriteRule ^citizen/profile 					citizen/myprofile.php 			[L,QSA]
+RewriteRule ^citizen/notice 					citizen/notice.php 				[L,QSA]
+RewriteRule ^citizen/mcenter 					citizen/mcenter.php 			[L,QSA]
+RewriteRule ^citizen/mrequest/([0-9]+)			citizen/mrequest.php?id=$1		[L,QSA]
+
+
+RewriteRule ^doctor/login						doctor/dlogin.php				[L,QSA]
+RewriteRule ^doctor/process						library/dlogin.lib.php			[L,QSA]
+RewriteRule ^doctor/signup						doctor/dsignup-1.php			[L,QSA]
+RewriteRule ^doctor/sprocess					library/dsignup1.lib.php		[L,QSA]
+RewriteRule ^doctor/create_schedule				doctor/dsignup-2.php			[L,QSA]
+RewriteRule ^doctor/sprocs						library/dsignup2.lib.php		[L,QSA]
+RewriteRule ^doctor/notice						doctor/notice.php				[L,QSA]
+RewriteRule ^doctor/profile						doctor/profile.php				[L,QSA]
+
+RewriteRule ^doctor/home							doctor/doctor.php							[L,QSA]
+RewriteRule ^doctor/patients						doctor/dpatient.php							[L,QSA]
+RewriteRule ^doctor/prescription/([0-9]+)/([0-9]+)	doctor/prescription.php?pid=$1&btime=$2		[L,QSA]
+RewriteRule ^doctor/serve							doctor/pprocess.php							[L,QSA]
+
+
+RewriteRule ^mcenter/login 						mcenter/mlogin.php 				[L,QSA]
+RewriteRule ^mcenter/mprocess 					library/mlogin.lib.php  		[L,QSA]
+RewriteRule ^mcenter/home 						mcenter/mcenter.php 			[L,QSA]
+RewriteRule ^mcenter/signup 					mcenter/msignup.php 			[L,QSA]
+RewriteRule ^mcenter/mediprocess				library/msignup.lib.php 		[L,QSA]
+RewriteRule ^mcenter/request					mcenter/request.php 			[L,QSA]	
+RewriteRule ^mcenter/manage						mcenter/manage.php 				[L,QSA]	
+RewriteRule ^mcenter/notice						mcenter/notice.php 				[L,QSA]	

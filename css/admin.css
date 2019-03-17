@@ -1,0 +1,30 @@
+.navbar{
+	border-radius: 0;
+	background: black !important;
+
+}
+
+.navbar a{
+	color: white !important;
+
+}
+
+.dash{
+	background: black;
+	color: white !important;
+	border:2px solid black !important;
+	
+}
+a.dash:hover{
+	background: black !important;
+	color: white;
+}
+
+.table{
+	margin-top: 10px;
+}
+
+.table-top{
+	background: black !important;
+	color: white !important;
+}

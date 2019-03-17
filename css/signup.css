@@ -1,0 +1,20 @@
+input[type="reset"]{
+	background: #FFA726;
+	color: white;
+}
+
+input[type="submit"]{
+	background: #4FC3F7;
+	color: white;
+}
+
+.main{
+	
+	margin-top: 8%;
+
+}
+
+.panel-body{
+	padding-top: 30px;
+}
+

@@ -1,0 +1,354 @@
+/*--------------Login--------------*/
+
+
+body{
+	
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*-----------Login css-------------*/
+
+.jumbotron{
+	
+  	/*background:  #2B3238;*/
+   	margin-top: 15%;
+	transform: translateY(-50%);
+
+
+
+}
+
+.sign{
+	color: rgba(54,34,71,1);
+	font-size: 35px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: -30px;
+}
+
+
+input{
+	
+	border-radius: 0px !important;
+    border:none;
+}
+
+input:focus{
+	font-size: 16px;
+	transition: .3s;
+}
+
+.forgot_password{
+	
+	text-align: right;
+	margin-top: 70px;
+}
+
+.forgot_password a{
+	color: rgba(54,34,71,1);	
+}
+
+
+@media (max-height: 600px), (max-width: 1200px) {
+	.jumbotron{
+		margin-top: 300px;
+		transform: translateY(-50%);
+	}
+}
+
+
+/*---------------------Login Design End------------------*/
+
+
+/*-----------------------Sign Up----------------------*/
+#sign_in{
+	background:  rgba(54,34,71,.8);
+}
+.main{
+	
+	margin-top: 20%;
+
+}
+
+.dmain{
+	margin-top: 10%;
+}
+
+#sign_up{
+	/*background-image: url("../img/signup.jpg");*/
+	background: rgba(54,34,71,.8);
+}
+
+#heading{
+	color:#362247;
+}
+
+.log-in{
+	background: #DEBEA0;
+	color: white;
+	border-radius: 50px !important;
+	border: 0px !important;
+	text-decoration: none !important;
+}
+
+
+#go{
+	height: 42px !important;
+}
+
+.dsignup2{
+	margin-top: 25%;
+}
+
+input[type="submit"]{
+	background: #362247;
+	color: white;
+	border-radius: 50px !important;
+	border: 0px !important;
+}
+
+input[type="button"]{
+	background: rgba(199, 211, 175,.6) !important;
+	color:#362247;
+	border-radius: 50px !important;
+	border: 0px !important;
+}
+
+
+input[type="text"],input[type="time"],input[type="number"],select, input[type="password"], input[type="email"], .all_select{
+
+	height: 42px !important;
+	background: rgba(199, 211, 175,.6) !important;
+	border-radius: 5px !important;
+	padding-left: 20px;
+}
+
+textarea{
+	min-height: 42px;
+	max-height: 100px;
+	background: rgba(199, 211, 175,.6) !important;
+	padding-left: 20px !important;
+
+}
+
+/*.panel-body{
+	padding-top: 30px !important;
+}*/
+
+/*----------------------------User CMS-------------------*/
+
+
+
+#u_home{
+	background: gray;
+}
+
+
+/*Navbar design start*/
+
+.navbar{
+	border-radius: 0;
+	background: #37474F !important;
+	/*position: absolute !important;
+	z-index: 1 !important;*/
+	border: 0px !important;
+	height: 100px !important;
+}
+
+.navbar-nav li a {
+ 	line-height: 80px;
+}
+
+
+
+.navbar a{
+	color: white !important;
+
+}
+
+.navbar-header{
+	height: 100px !important;
+	
+}
+
+.navbar-header a{
+	line-height: 80px !important;
+	color: white !important;
+}
+
+/*Navbar design end*/
+
+
+
+/*Main div  start*/
+
+/*.innerdiv{
+	top:80px !important;
+	position: relative !important;
+}*/
+
+
+/*Sidebar design*/
+
+.sidebar{
+	border: 0px !important;
+	box-shadow: none !important;
+	margin-left: -15px !important;
+	margin-top: -20px !important;
+	height: 900px;
+	background: #37474F;
+	
+}
+
+.sidebar ul li a:hover{
+	background: #6DA611 !important;
+
+}
+
+.item{
+	border-radius: 0px !important;
+}
+
+ .header_design{
+	border-radius: 0px !important;
+	border: 0px;
+
+}
+
+.head{
+	background: green;
+	color:white !important;
+}
+
+.menu_color{
+	background: #37474F !important;
+	color: white !important;
+	border: 0 !important;
+}
+
+.glyphicon{
+	margin-right: 10px !important;
+	margin-left: 5px !important;
+}
+/*
+.test_menu_color{
+	background: #362247 !important;
+	color: white !important;
+	border: 0 !important;
+	
+}
+
+.header_border_remover{
+	border: 0 !important;
+}
+
+.glyphicon{
+	margin-right: 10px !important;
+}
+
+a:hover{
+	border-bottom: 1px !important;
+	border-color: #DEBEA0 !important;
+}*/
+
+
+
+
+
+
+/*Doctor retrive data panel design*/
+
+.img-padding{
+	padding: 5px !important;
+}
+
+.control-label{
+	text-align: left !important;
+}
+
+.overview{
+	background: #695883 !important;
+	color: white !important;
+	font-size: 16px;
+}
+
+.doctitle{
+	background: #62BBCD !important;
+	font-size: 16px !important;
+	color: white !important;
+}
+
+.font{
+	color: !important;
+}
+/*hr{
+	border-top: 1px dotted!important;
+}*/
+
+
+/*---------------Profile design------------------*/
+
+.p-header{
+	/*height: 200px !important;*/1
+	padding: 0px !important;
+	
+}
+
+.img-cover{
+	height: 200px !important;
+	width: 100% !important;
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+.img-profile{
+	height: 200px !important;1
+	width: 100% !important;
+
+}
+
+/*Appoinment*/
+
+/*.date{
+	background: orange !important;
+}*/
+
+
+
+/*---------------------------Appoinment design----------------------*/
+
+.m{
+	margin-bottom: 10px !important;
+}
+
+/*Prescription page*/
+.info{
+	background: #62BBCD !important;
+	color: white !important;
+}
+
+.p1,.p2{
+	min-height: 250px;
+
+}
+
+.p3,.p4{
+	min-height: 550px;
+	
+}
+
+.reason{
+	min-height: 200px;
+}
+
+
+/*Medicenter design*/
+
+.price-input{
+	max-height: 30px !important;
+	margin-bottom: 30px !important;
+}
